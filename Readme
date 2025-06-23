@@ -1,0 +1,48 @@
+# 💻 AI & Machine Learning Mini Projects Collection
+
+This repository showcases three beginner-to-intermediate level Python projects in AI and machine learning. These projects demonstrate fundamental implementations of algorithms like rule-based logic, content-based recommendation, and the Minimax strategy in game theory.
+
+---
+
+## 🎮 1. Tic-Tac-Toe with AI (Minimax Algorithm)
+
+**Description:**
+This is a command-line Tic-Tac-Toe game where a human player competes against an AI. The AI uses the **Minimax algorithm**, which ensures an unbeatable opponent that plays optimally every time. The user plays as `'O'` and the computer plays as `'X'`.
+
+**Key Features:**
+- 3x3 grid visual display
+- Human vs AI turns
+- Minimax implementation with optimal decision tree
+- Game-end detection (win, lose, or draw)
+
+**Technologies Used:** Python, Minimax, Game Theory, Recursion
+
+---
+
+## 🎬 2. Content-Based Movie Recommender System
+
+**Description:**
+This project is a simple yet powerful **content-based recommendation system** that suggests similar movies based on genre information. Using **TF-IDF vectorization** and **cosine similarity**, it identifies movies that are closest in terms of genre composition.
+
+**Key Features:**
+- TF-IDF-based genre vectorization
+- Cosine similarity calculation between movies
+- Clean and readable similarity matrix
+- Recommend top N similar movies based on genre
+
+**Technologies Used:** Python, Pandas, Scikit-learn (TF-IDF, Cosine Similarity)
+
+---
+
+## 💬 3. Rule-Based Chatbot (Console)
+
+**Description:**
+A basic rule-based chatbot built using conditional logic. It can respond to greetings, farewells, time/date queries, emotional expressions, jokes, and simple math operations. The chatbot demonstrates how `if-elif-else` logic can be structured to simulate conversational AI.
+
+**Key Features:**
+- Responds to 50+ user intents
+- Handles greetings, jokes, math, and motivational replies
+- Includes time/date utilities using Python's datetime module
+- Console-based interaction loop
+
+**Technologies Used:** Python, Rule-Based Logic, String Matching
